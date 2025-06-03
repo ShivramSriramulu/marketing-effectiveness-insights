@@ -62,7 +62,5 @@ if submit:
     st.markdown(f"### 🔮 Predicted Conversion Likelihood: `{proba:.2%}`")
     st.success("High Conversion Probability!" if proba > 0.5 else "Low Conversion Probability")
 
-
-
 # === Footer ===
 st.caption("Built by Shivram Sriramulu • Powered by MMM + MTA + Streamlit")
